@@ -1,0 +1,41 @@
+{
+  "name": "phonegap-template-blank",
+  "version": "1.1.0",
+  "description": "blank template for phonegap and cordova projects",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phonegap/phonegap-app-blank.git"
+  },
+  "keywords": [
+    "ecosystem:phonegap",
+    "ecosystem:cordova",
+    "cordova:template",
+    "phonegap:template"
+  ],
+  "author": "PhoneGap Team",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/phonegap/phonegap-app-blank/issues"
+  },
+  "homepage": "https://github.com/phonegap/phonegap-app-blank#readme",
+  "scripts": {
+    "start": "set LOGGY_STACKS=1 && brunch watch --server",
+    "build": "brunch build --production"
+  },
+  "dependencies": {
+    "onsenui": "^2.1.0",
+    "vue": "^2.1.10",
+    "vue-onsenui": "^2.0.0-alpha.0"
+  },
+  "devDependencies": {
+    "auto-reload-brunch": "^2.7.1",
+    "babel-brunch": "~6.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-latest": "^6",
+    "brunch": "^2",
+    "clean-css-brunch": "^2",
+    "uglify-js-brunch": "^2",
+    "vue-brunch": "^2.0.0"
+
+  }
+}
